@@ -1,4 +1,4 @@
-FROM python:3.7.4-slim
+FROM python:3.7.4
 
 LABEL "com.github.actions.name"="GitHub Action for Pylama"
 LABEL "com.github.actions.description"="Run pylama commands on python slim image"
