@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="black"
 
 
 RUN pip install --upgrade pip
-RUN pip install pipenv
+RUN pip install pylama
 
 
 COPY entrypoint.sh /
